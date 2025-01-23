@@ -7,7 +7,7 @@
   text-align: center;
 }
 
-html > body {
+html>body {
   box-sizing: border-box;
   padding: 0;
   margin: 0px;
@@ -15,6 +15,26 @@ html > body {
 
 body {
   background-color: aliceblue;
+}
+
+.main-header {
+  height: 64px;
+  padding: 18px 24px;
+  align-items: center;
+  background-color: rgb(42, 112, 174);
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 84px;
+  fill: white;
+}
+
+.header-text {
+  font-size: 34px;
+  font-weight: 500;
+  color: white;
 }
 
 .container {
@@ -55,7 +75,8 @@ body {
 }
 
 .map-box {
-  height: 700px;
+  height: 500px;
   background-color: white;
   border-radius: 18px;
+  overflow: hidden;
 }
